@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(238, 238, 238);
+}
+
+a {
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-block {
+    display: block;
+}
+
+.nav-menu {
+    background-color: rgb(148, 148, 148);
+    text-align: right;
+}
+
+.nav-menu a {
+    line-height: 60px;
+    padding-left: 24px;
+    font-size: 18px;
+}
+
+.nav-h3 {
+    text-align: left;
+    font-size: 18px;
+}
+
+h1  {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text-for-img {
+    padding: 0px 50px 0px 50px;
+    font-size: 16px;
+
+    text-align: center;
+}
+
+.text-for-img img {
+    width: 330px;
+    height: 200px;
+
+    border-radius: 10px;
+    border: solid 1px #333;
+}
+
+footer {
+    width: 100%;
+    height: 280px;
+    background-color: rgb(170, 170, 170);
+    margin-top: 100px;
+}
+
+.email,
+.phone {
+    font-size: 18px;
+}
+
+.footer-panda {
+    float: right;
+    margin-top: 85px;
+    font-size: 16px;
+}
+
+.footer-center {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
